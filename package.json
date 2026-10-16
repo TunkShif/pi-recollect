@@ -1,6 +1,6 @@
 {
   "name": "pi-recollect",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Silent background cross-session memory for Pi: learns from finished sessions, injects a compact memory index, and lets the agent grep deeper memory on demand.",
   "type": "module",
   "license": "MIT",
@@ -20,9 +20,6 @@
   "pi": {
     "extensions": [
       "./src/index.ts"
-    ],
-    "prompts": [
-      "./prompts/*.md"
     ]
   },
   "scripts": {
