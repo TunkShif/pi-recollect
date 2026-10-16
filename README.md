@@ -11,7 +11,7 @@ Automatic skill creation, vector search, and saving memory during the chat are o
 ## Install
 
 ```bash
-pi install git@github.com:TunkShif/pi-recollect.git
+pi install pi-recollect
 ```
 
 For development, install a local clone instead: `pi install ./pi-recollect`.

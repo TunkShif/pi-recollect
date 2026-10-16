@@ -1,9 +1,11 @@
 {
   "name": "pi-recollect",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "description": "Silent background cross-session memory for Pi: learns from finished sessions, injects a compact memory index, and lets the agent grep deeper memory on demand.",
   "type": "module",
   "license": "MIT",
+  "homepage": "https://github.com/TunkShif/pi-recollect#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/TunkShif/pi-recollect.git" },
   "keywords": [
     "pi-package",
     "pi-extension",
@@ -12,11 +14,15 @@
   "files": [
     "src",
     "prompts",
+    "LICENSE",
     "README.md"
   ],
   "pi": {
     "extensions": [
       "./src/index.ts"
+    ],
+    "prompts": [
+      "./prompts/*.md"
     ]
   },
   "scripts": {
